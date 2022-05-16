@@ -1,0 +1,24 @@
+server:
+  port: 8485
+
+spring:
+  profiles:
+    active: dev
+  mvc:
+    converters:
+      preferred-json-mapper: gson
+  gson:
+    date-format: YYYY-MM-dd
+---
+
+spring:
+  config:
+    activate:
+      on-profile: dev
+server:
+  ssl:
+    enabled: false
+
+
+
+
