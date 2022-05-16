@@ -1,5 +1,5 @@
-const BASE_URL_DEV = 'http://localhost:8485';
-const BASE_URL_PROD = 'https://www.def-v.com:8443/hospital-v1.0-SNAPSHOT';
+const BASE_URL_DEV = 'http://localhost';
+const BASE_URL_PROD = '';
 
 const ENV_API : string = 'prod';
 
